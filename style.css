@@ -1,7 +1,50 @@
-h1 {
-  margin: auto;
-  width: 50%;
-  border: 3px solid green;
-  padding: 10px;
+#bloc_page{
+	margin: auto;
+	width: 900px;
 }
 
+#tete{
+	background-color: #27ddec;
+	height: 250px;
+	border: 1px solid red;
+}
+#tete h1{
+	width: 350px;
+	height:40px;
+	background-color: white;
+	color: #ffeeaa;
+	border: 1px solid #ffddaa;
+	box-shadow: 0px 4px 4px #ffeeaa;
+	font-size: 2.1em;
+	text-align: center;
+	position: relative;
+	right: -500px;
+	top: -130px;
+}
+
+
+#logoITG{
+	
+	position: relative;
+	left: 20px;
+	top: 5px;
+}
+
+nav{
+	display: inline-block;
+	width: 900px;
+}
+
+nav li{
+	display: inline-block;
+	/*margin-right: 50px;
+	margin-left: 70px;*/
+	padding-left: 100px;
+	padding-bottom: 10px;
+}
+
+nav img{
+	position: relative;
+	left: -120px;
+	top: 0px;
+}
