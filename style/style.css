@@ -1,53 +1,115 @@
-<<<<<<< HEAD
 #bloc_page{
+	width: 900px;
 	margin: auto;
-	width: 900px;
 }
 
-#tete{
-	background-color: #27ddec;
-	height: 250px;
-	border: 1px solid red;
-}
-#tete h1{
-	width: 350px;
-	height:40px;
+h1{
+	border: 1px solid black;
 	background-color: white;
-	color: #ffeeaa;
-	border: 1px solid #ffddaa;
-	box-shadow: 0px 4px 4px #ffeeaa;
-	font-size: 2.1em;
-	text-align: center;
-	position: relative;
-	right: -500px;
-	top: -130px;
+	text-align: center; 
+	/*width: 350px;
+	height: 40px;*/
+	color: #bb00ff;
+	position: absolute;
+	top: 20px;
+	right: 20px;
 }
-
-
-#logoITG{
-	
-	position: relative;
-	left: 20px;
-	top: 5px;
-}
-
-nav{
-	display: inline-block;
-	width: 900px;
+h2{
+	padding-left: 150px;
 }
 
 nav li{
-	display: inline-block;
-	/*margin-right: 50px;
-	margin-left: 70px;*/
-	padding-left: 100px;
-	padding-bottom: 10px;
+	border: 1px solid black;
+	width: 100px;
+	background-color: #bb00ff;
+	padding-left: 20px;
+	display: none;
 }
 
-nav img{
-	position: relative;
-	left: -120px;
-	top: 0px;
+.tete{
+	border: 1px solid black;
+	background-color: #006468;
+	height: 220px;
+	z-index: 3;
 }
-=======
->>>>>>> master
+
+.secret{
+	position: absolute;
+	left: 20px;
+}
+
+#sect{
+	border: 1px solid black;
+	width: 1000px;
+	height: auto;
+	position: absolute;
+	right: 1px;
+	margin: 10px;
+	padding: 3px;
+}
+
+.pres{
+	height: 200px;
+	padding-right: 100px;
+	padding-left: 100px;
+	text-align: justify;
+}
+
+.art1{
+	border: 1px solid black;
+	height: auto;
+	margin: auto;
+	padding-left: 600px;
+	padding-right: 70px;
+	padding-top: auto;
+	padding-bottom: auto;
+	text-align: justify;
+} 
+
+.art2{
+	border: 1px solid black;
+	height: auto;
+	margin: auto;
+	padding-right: 600px;
+	padding-left: 70px;
+	padding-bottom: auto;
+	padding-top: auto;
+	text-align: justify;
+} 
+
+.art3{
+	border: 1px solid black;
+	height: auto;
+	margin: auto;
+	padding-left: 600px;
+	padding-right: 70px;
+	padding-top: auto;
+	padding-bottom: auto;
+	text-align: justify;
+} 
+
+aside{
+	border: 1px solid black;
+	margin: 2px;
+
+}
+
+#contact_adress{
+	border: 1px solid black;
+	padding-left: 700px;
+	padding-right: 70px;
+	padding-top: auto;
+	padding-bottom: auto;
+}
+
+#social_link{
+	border: 1px solid black;
+	background-color: #cdcdcd;
+	width: 25%;
+	height: 500px;
+	z-index: 3;
+}
+
+li img{
+	display: inline-block;
+}
