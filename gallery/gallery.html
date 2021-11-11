@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<title>Gallery</title>
+<head>
+    <link rel="stylesheet" href="gallery.css"/>
+    <script type="text/javascript" src="gallery.js"></script>
+</head>
+<body>
+    <div class="row">
+        <div class ="column">
+            <img src="../photos/Cocotier.jpg" alt="Nature" width="250px" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="../photos/minio_studio.png" alt="Minion at Night" width="250px" onclick="myFunction(this);">
+        </div>
+        <div class ="column">
+            <img src="../photos/Island.jpg" alt="Tropical road" width="250px" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="../photos/Scary_girl.jpg" alt="Girls playing music" width="250px" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="../photos/PlayGuitar.jpg" alt="Lights" width="250px" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="../photos/Smiling.jpg" alt="Smilling Girls" width="250px" onclick="myFunction(this);">
+        </div>
+    </div>
+    
+    <!-- The expanding image container -->
+    <div class="container">
+        <!-- Close the image -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span> 
+    </div>
+    
+        <!-- Expanded image -->
+        <img id="expandedImg" style="width:100%">
+        
+        <!-- Image text -->
+        <div id="imgtext"></div>
+</body>
+    
+</html>
