@@ -29,6 +29,19 @@ $ git fetch upstream
 Raha misy modif dia mergeo ao amin'ny master anao:
 $ git merge upstream/master
 
+Raha misy olana mitovy aminio ambany io dia araho ny torolalana omeny :
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
 Rehefa izay dia akaro amin'izay ilay modif anao:
 $ git add fichier_no_modifier_nao
 $ git commit -m "message commit anao"
